@@ -90,13 +90,15 @@
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
 
     <script>
-        const ctxBar = document.getElementById('chartBar').getContext('2d');
-        const ctxPie = document.getElementById('chartPie').getContext('2d');
-        const ctxLine = document.getElementById('chartLine').getContext('2d');
+         const chartData = JSON.parse('<?= $chartData ?? '{}' ?>');
 
-        let pemasukan = 15000000;
-        let pengeluaran = 2000000;
-        let total = pemasukan + pengeluaran;
+const ctxBar = document.getElementById('chartBar').getContext('2d');
+const ctxPie = document.getElementById('chartPie').getContext('2d');
+
+// Gunakan data dinamis
+let pemasukan = chartData.values ? chartData.values[0] : 0;
+let pengeluaran = chartData.values ? chartData.values[1] : 0;
+let total = pemasukan + pengeluaran;
 
         const bulan = ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun'];
         let dataPemasukan = [5000000, 6000000, 7000000, 6500000, 8000000, 9000000];

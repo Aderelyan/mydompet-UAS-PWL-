@@ -2,30 +2,43 @@
 
 namespace App\Controllers;
 
+// Kita butuh model untuk mengambil data
+use App\Models\UserModel; 
+use App\Models\TransactionModel;
+
 class Dashboard extends BaseController
 {
     public function index()
     {
+        // Jika belum login, tampilkan halaman marketing/landing page
         if (!session()->has('user_id')) {
-            return view('dashboardGuest'); // Dashboard kosong untuk guest (belum login)
-        } else {
-            return view('dashboardUser'); // Dashboard dengan fitur penuh setelah login
+            return view('dashboardGuest'); 
         }
 
-        
-        $bulan = $this->request->getGet('bulan') ?: date('m'); // Default ke bulan sekarang
-        $db = \Config\Database::connect();
+        // Jika sudah login, ambil data dan tampilkan dashboard pengguna
+        $userId = session()->get('user_id');
+        $userModel = new UserModel();
 
-        // Query pemasukan dan pengeluaran berdasarkan bulan
-        $pemasukan = $db->table('transaksi')->where('jenis', 'pemasukan')->where('MONTH(tanggal)', $bulan)->selectSum('jumlah')->get()->getRow()->jumlah ?? 0;
-        $pengeluaran = $db->table('transaksi')->where('jenis', 'pengeluaran')->where('MONTH(tanggal)', $bulan)->selectSum('jumlah')->get()->getRow()->jumlah ?? 0;
+        // Panggil method baru di UserModel untuk mengambil summary
+        // yang memanggil stored procedure 'sp_get_dashboard_summary'
+        $summary = $userModel->getDashboardSummary($userId); 
+
+        // Ambil juga beberapa transaksi terakhir untuk ditampilkan
+        $transactionModel = new TransactionModel();
+        // [PERBAIKAN] Menggunakan method baru untuk mengambil transaksi hari ini
+$today = date('Y-m-d');
+$filters = [
+    'user_id'       => $userId,
+    'tanggal_awal'  => $today,
+    'tanggal_akhir' => $today,
+];
+$transactions = $transactionModel->getTransactions($filters);
 
         $data = [
-            'pemasukan'  => $pemasukan,
-            'pengeluaran' => $pengeluaran,
-            'saldo'       => $pemasukan - $pengeluaran
+            'summary'      => $summary,
+            'transactions' => $transactions
         ];
 
-        return view('dashboard', $data);
+        return view('dashboardUser', $data); 
     }
 }

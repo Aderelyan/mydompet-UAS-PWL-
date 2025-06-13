@@ -24,17 +24,20 @@ class Filters extends BaseFilters
      * [filter_name => classname]
      * or [filter_name => [classname1, classname2, ...]]
      */
-    public array $aliases = [
-        'csrf'          => CSRF::class,
-        'toolbar'       => DebugToolbar::class,
-        'honeypot'      => Honeypot::class,
-        'invalidchars'  => InvalidChars::class,
-        'secureheaders' => SecureHeaders::class,
-        'cors'          => Cors::class,
-        'forcehttps'    => ForceHTTPS::class,
-        'pagecache'     => PageCache::class,
-        'performance'   => PerformanceMetrics::class,
-    ];
+   // Cari public array $aliases
+   // app/Config/Filters.php
+
+public array $aliases = [
+    'csrf'          => CSRF::class,
+    'toolbar'       => DebugToolbar::class,
+    'honeypot'      => Honeypot::class,
+    'invalidchars'  => InvalidChars::class,
+    'secureheaders' => SecureHeaders::class,
+    'auth'          => \App\Filters\AuthFilter::class,
+    'forcehttps'    => \CodeIgniter\Filters\ForceHTTPS::class,
+    'pagecache'     => \CodeIgniter\Filters\PageCache::class, // <-- TAMBAHKAN BARIS INI
+    'performance'   => \CodeIgniter\Filters\PerformanceMetrics::class,
+];
 
     /**
      * List of special required filters.

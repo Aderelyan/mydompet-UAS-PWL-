@@ -45,11 +45,20 @@
 <body>
     <div class="login-container text-center">
         <h2 class="mb-4">Login</h2>
-        <form action="/process-login" method="post">
-            <input type="email" name="email" placeholder="Email" class="form-control mb-3" required>
-            <input type="password" name="password" placeholder="Password" class="form-control mb-3" required>
-            <button type="submit" class="btn btn-primary w-100">Login</button>
-        </form>
+        <?php if(session()->getFlashdata('success')): ?>
+    <div class="alert alert-success"><?= session()->getFlashdata('success') ?></div>
+<?php endif; ?>
+<?php if(session()->getFlashdata('error')): ?>
+    <div class="alert alert-danger"><?= session()->getFlashdata('error') ?></div>
+<?php endif; ?>
+<form action="<?= site_url('process-login') ?>" method="post">
+    <input type="email" name="email" placeholder="Email" class="form-control mb-3" required>
+    <input type="password" name="password" placeholder="Password" class="form-control mb-3" required>
+    <button type="submit" class="btn btn-primary w-100">Login</button>
+    
+    <a href="<?= site_url('/') ?>" class="btn btn-outline-light w-100 mt-2">Batal</a>
+</form>
+
         <p class="mt-3">Belum punya akun? <a href="/register">Daftar di sini</a></p>
     </div>
 </body>

@@ -43,36 +43,40 @@
         color: white !important; 
         background-color: #dc3545 !important; 
          }
-        
-     
     </style>
 </head>
 <body class="bg-light">
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="#">MyDompet</a>
+            <a class="navbar-brand" href="<?= site_url('/') ?>">MyDompet</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="/dashboard">Dashboard</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/catatan">Catatan</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/diagram">Diagram</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/hutang">Hutang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?= site_url('dashboard') ?>">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?= site_url('transaksi') ?>">Transaksi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?= site_url('diagram') ?>">Diagram</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?= site_url('hutang') ?>">Hutang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?= site_url('wallets') ?>">Dompet</a></li>
+                    
                     <?php if (session()->has('logged_in')): ?>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <?= session('user_name') ?: 'Guest' ?>
-                        </a>
+                    <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <?= esc(session('user_name')) ?: 'Guest' ?>
+                    <img src="<?= base_url('img/' . (session('user_foto') ?? 'default.jpg')) ?>" alt="" width="24" height="24" class="rounded-circle ms-2">
+                    </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
-                            <li><a class="dropdown-item" href="<?= base_url('ganti-password') ?>">Ganti Password</a></li>
-                            <li><a class=" dropdown-item text-danger fw-bold"  href="<?= base_url('logout') ?>">Logout</a></li>
+                            <li><a class="dropdown-item" href="<?= site_url('ganti-password') ?>">Ganti Password</a></li>
+                            <li><a class="dropdown-item text-danger" href="<?= site_url('delete-account') ?>">Hapus Akun</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item text-danger fw-bold" href="<?= site_url('logout') ?>">Logout</a></li>
                         </ul>
                     </li>
                     <?php endif; ?>
                 </ul>
             </div>
+
             <?php if (session('username') == 'guest'): ?>
                 <div class="alert alert-info text-center">
                     Anda sedang dalam mode demo. Data akan dihapus saat logout.
