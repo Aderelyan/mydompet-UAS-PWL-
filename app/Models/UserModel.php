@@ -18,6 +18,9 @@ class UserModel extends Model
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at'; // Pastikan Anda punya kolom updated_at di tabel users
 
+
+
+    
     public function getDashboardSummary(int $userId)
 {
     $sql = "CALL sp_get_dashboard_summary(?)";

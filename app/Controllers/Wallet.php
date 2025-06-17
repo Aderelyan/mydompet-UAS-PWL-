@@ -58,11 +58,12 @@ class Wallet extends BaseController
             return redirect()->to('/wallets')->withInput()->with('errors', $this->validator->getErrors());
         }
         
-        // Memanggil Stored Procedure
         $db = \Config\Database::connect();
         $sql = "CALL sp_transfer_saldo(?, ?, ?, ?)";
         
+        // [PERBAIKAN] Gunakan try...catch untuk memanggil stored procedure
         try {
+            // Coba jalankan query yang memanggil stored procedure
             $db->query($sql, [
                 session()->get('user_id'),
                 $this->request->getPost('wallet_sumber_id'),
@@ -70,9 +71,10 @@ class Wallet extends BaseController
                 $this->request->getPost('jumlah')
             ]);
             return redirect()->to('/wallets')->with('success', 'Transfer saldo berhasil.');
+    
         } catch (\Throwable $th) {
-            // Menangkap error dari stored procedure (misal: saldo tidak cukup)
-            return redirect()->to('/wallets')->with('error', $th->getMessage());
+            // Jika ada 'SIGNAL' (misal: saldo tidak cukup), tangkap pesannya di sini
+            return redirect()->to('/wallets')->withInput()->with('error', $th->getMessage());
         }
     }
 

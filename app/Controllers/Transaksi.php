@@ -71,30 +71,72 @@ class Transaksi extends BaseController
             'tanggal_transaksi' => $this->request->getPost('tanggal_transaksi')
         ];
         
-        if ($transactionModel->addTransaction($data)) {
+        if (!$this->validate($rules)) {
+            return redirect()->to('/transaksi')->withInput()->with('errors', $this->validator->getErrors());
+        }
+    
+        $transactionModel = new \App\Models\TransactionModel();
+        $data = [
+            'user_id'           => session()->get('user_id'),
+            'wallet_id'         => $this->request->getPost('wallet_id'),
+            'category_id'       => $this->request->getPost('category_id'),
+            'jumlah'            => $this->request->getPost('jumlah'),
+            'keterangan'        => $this->request->getPost('keterangan'),
+            'tanggal_transaksi' => $this->request->getPost('tanggal_transaksi')
+        ];
+    
+        // [PERBAIKAN] Gunakan try...catch untuk memanggil method model
+        try {
+            // Coba jalankan method yang memanggil stored procedure
+            $transactionModel->addTransaction($data);
             return redirect()->to('/transaksi')->with('success', 'Transaksi berhasil ditambahkan!');
-        } else {
-            return redirect()->to('/transaksi')->with('error', 'Gagal menambahkan transaksi. Kategori tidak valid.');
+    
+        } catch (\Throwable $th) {
+            // Jika ada 'SIGNAL' atau error dari database, tangkap pesannya di sini
+            return redirect()->to('/transaksi')->withInput()->with('error', $th->getMessage());
         }
     }
 
     // Tambahkan method ini di dalam kelas Transaksi
 
+// Versi baru yang cerdas dan aman
 public function delete($id = null)
 {
     $transactionModel = new \App\Models\TransactionModel();
+    $db = \Config\Database::connect(); // Panggil koneksi database
     $userId = session()->get('user_id');
 
-    // Cari transaksi berdasarkan ID dan pastikan itu milik user yang login
+    // 1. Cari transaksi utama berdasarkan ID dan pastikan itu milik user yang login
     $transaction = $transactionModel->where(['id' => $id, 'user_id' => $userId])->first();
 
     if ($transaction) {
-        // Jika ditemukan, hapus. Trigger di database akan otomatis mengupdate saldo dompet.
+        // Ambil ID transaksi pasangannya jika ada
+        $linked_id = $transaction['linked_transaction_id'];
+
+        // 2. Gunakan Transaction di CodeIgniter untuk memastikan kedua delete berhasil
+        $db->transStart();
+
+        // Hapus transaksi utama
         $transactionModel->delete($id);
-        return redirect()->to('/transaksi')->with('success', 'Transaksi berhasil dihapus.');
+
+        // Jika ada transaksi pasangan, hapus juga
+        if ($linked_id) {
+            $transactionModel->delete($linked_id);
+        }
+
+        $db->transComplete();
+
+        // 3. Cek apakah transaksi database berhasil
+        if ($db->transStatus() === false) {
+            // Jika gagal, kembalikan dengan pesan error
+            return redirect()->to('/transaksi')->with('error', 'Terjadi kesalahan saat menghapus data.');
+        } else {
+            // Jika berhasil
+            return redirect()->to('/transaksi')->with('success', 'Transaksi berhasil dihapus.');
+        }
     }
 
-    // Jika tidak ditemukan atau bukan milik user, beri pesan error
+    // Jika transaksi awal tidak ditemukan, beri pesan error
     return redirect()->to('/transaksi')->with('error', 'Transaksi tidak ditemukan.');
 }
 }

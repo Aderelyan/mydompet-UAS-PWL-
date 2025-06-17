@@ -24,7 +24,6 @@ $routes->group('', ['filter' => 'auth'], function ($routes) {
 
     // Rute '/dashboard' tetap di dalam karena ini khusus user yang login
     $routes->get('/dashboard', 'Dashboard::index'); 
-    
     // ... (sisa rute terproteksi lainnya tetap di sini) ...
     $routes->get('transaksi', 'Transaksi::index');
     $routes->post('transaksi/create', 'Transaksi::create');

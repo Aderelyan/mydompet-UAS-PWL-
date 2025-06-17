@@ -9,28 +9,33 @@
 
 <h2>Selamat Datang, <span class="text-primary fw-bold"><?= esc(session('user_name')) ?: 'Guest' ?></span>!</h2><br>
 
-<form method="get" action="<?= site_url('dashboard') ?>">
-    <div class="row mb-3">
-        <div class="col-md-5">
-            <label for="tanggal_awal" class="form-label">Filter Dari Tanggal:</label>
-            <input type="date" name="tanggal_awal" id="tanggal_awal" class="form-control" value="<?= esc($filter['tanggal_awal'] ?? '') ?>">
-        </div>
-        <div class="col-md-5">
-            <label for="tanggal_akhir" class="form-label">Sampai Tanggal:</label>
-            <input type="date" name="tanggal_akhir" id="tanggal_akhir" class="form-control" value="<?= esc($filter['tanggal_akhir'] ?? '') ?>">
-        </div>
-        <div class="col-md-2 d-flex align-items-end">
-            <button type="submit" class="btn btn-primary w-100">Filter</button>
-        </div>
+<div class="card shadow-sm mb-4">
+    <div class="card-body">
+        <h5 class="card-title">Filter Ringkasan Kartu</h5>
+        <form method="get" action="<?= site_url('dashboard') ?>">
+            <div class="row align-items-end">
+                <div class="col-md-5">
+                    <label for="kartu_tanggal_awal" class="form-label">Dari Tanggal:</label>
+                    <input type="date" name="kartu_tanggal_awal" id="kartu_tanggal_awal" class="form-control" value="<?= esc($filter_kartu['tanggal_awal'] ?? '') ?>">
+                </div>
+                <div class="col-md-5">
+                    <label for="kartu_tanggal_akhir" class="form-label">Sampai Tanggal:</label>
+                    <input type="date" name="kartu_tanggal_akhir" id="kartu_tanggal_akhir" class="form-control" value="<?= esc($filter_kartu['tanggal_akhir'] ?? '') ?>">
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary w-100">Filter Kartu</button>
+                </div>
+            </div>
+        </form>
     </div>
-</form>
+</div>
 
 <div class="row">
     <div class="col-md-4 mb-3">
         <div class="card bg-success text-white">
             <div class="card-body">
                 <h4>Pemasukan</h4>
-                <h2>Rp <?= number_format($summary->total_pemasukan ?? 0, 0, ',', '.') ?></h2>
+                <h2>Rp <?= number_format($summary['pemasukan'] ?? 0, 0, ',', '.') ?></h2>
             </div>
         </div>
     </div>
@@ -38,7 +43,7 @@
         <div class="card bg-danger text-white">
             <div class="card-body">
                 <h4>Pengeluaran</h4>
-                <h2>Rp <?= number_format($summary->total_pengeluaran ?? 0, 0, ',', '.') ?></h2>
+                <h2>Rp <?= number_format($summary['pengeluaran'] ?? 0, 0, ',', '.') ?></h2>
             </div>
         </div>
     </div>
@@ -46,18 +51,39 @@
         <div class="card bg-primary text-white">
             <div class="card-body">
                 <h4>Total Saldo Dompet</h4>
-                <h2>Rp <?= number_format($summary->total_saldo_saat_ini ?? 0, 0, ',', '.') ?></h2>
+                <h2>Rp <?= number_format($summary['total_saldo'] ?? 0, 0, ',', '.') ?></h2>
             </div>
         </div>
     </div>
 </div>
 
-<br>
+<br><hr><br>
 
 <div class="d-flex justify-content-between align-items-center mb-3">
-    <h4 class="mb-0">Riwayat Transaksi Terakhir</h4>
-    <a href="<?= site_url('transaksi/new') ?>" class="btn btn-success fw-bold">+ Tambah Transaksi</a>
+    <h4 class="mb-0">Riwayat Transaksi</h4>
+    <a href="<?= site_url('transaksi') ?>" class="btn btn-success fw-bold">+ Tambah / Lihat Semua</a>
 </div>
+<div class="card shadow-sm mb-4">
+    <div class="card-body">
+        <h5 class="card-title">Filter Riwayat Transaksi</h5>
+        <form method="get" action="<?= site_url('dashboard') ?>">
+             <div class="row align-items-end">
+                <div class="col-md-5">
+                    <label for="tabel_tanggal_awal" class="form-label">Dari Tanggal:</label>
+                    <input type="date" name="tabel_tanggal_awal" id="tabel_tanggal_awal" class="form-control" value="<?= esc($filter_tabel['tanggal_awal'] ?? '') ?>">
+                </div>
+                <div class="col-md-5">
+                    <label for="tabel_tanggal_akhir" class="form-label">Sampai Tanggal:</label>
+                    <input type="date" name="tabel_tanggal_akhir" id="tabel_tanggal_akhir" class="form-control" value="<?= esc($filter_tabel['tanggal_akhir'] ?? '') ?>">
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary w-100">Filter Tabel</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
 <div class="table-responsive">
     <table class="table table-hover align-middle bg-white shadow-sm rounded">
         <thead class="table-light text-center">
@@ -71,7 +97,7 @@
         <tbody>
             <?php if (empty($transactions)): ?>
                 <tr>
-                    <td colspan="4" class="text-center py-4">Belum ada transaksi.</td>
+                    <td colspan="4" class="text-center py-4">Belum ada transaksi pada rentang tanggal ini.</td>
                 </tr>
             <?php else: ?>
                 <?php foreach ($transactions as $tx) : ?>

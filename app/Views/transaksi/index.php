@@ -6,6 +6,31 @@
     <h2 class="text-center mb-4">Halaman Transaksi</h2>
 
     <div class="card shadow-sm p-4 mb-5">
+    <?php if (session()->getFlashdata('success')): ?>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Berhasil!</strong> <?= session()->getFlashdata('success') ?>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<?php endif; ?>
+
+<?php if (session()->getFlashdata('error')): ?>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <?= session()->getFlashdata('error') ?>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<?php endif; ?>
+
+<?php if(session()->has('errors')): ?>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Perhatian!</strong> Terdapat kesalahan validasi:
+        <ul class="mb-0">
+        <?php foreach (session('errors') as $error): ?>
+            <li><?= esc($error) ?></li>
+        <?php endforeach ?>
+        </ul>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<?php endif; ?>
         <h4 class="text-center text-primary mb-4">Tambah Transaksi Baru</h4>
         
         <?php if(session()->has('errors')): ?>
@@ -111,11 +136,13 @@
                 <?= $tx['tipe_transaksi'] === 'pemasukan' ? '+' : '-' ?> Rp <?= number_format($tx['jumlah'], 0, ',', '.') ?>
             </td>
             <td class="text-center">
-                <form action="<?= site_url('transaksi/delete/' . $tx['id']) ?>" method="post" onsubmit="return confirm('Apakah Anda yakin ingin menghapus transaksi ini? Saldo dompet akan dikembalikan.');">
-                    <input type="hidden" name="_method" value="DELETE">
-                    <button type="submit" class="btn btn-sm btn-outline-danger">Hapus</button>
-                </form>
-            </td>
+    <form id="delete-form-<?= $tx['id'] ?>" action="<?= site_url('transaksi/delete/' . $tx['id']) ?>" method="post">
+        <input type="hidden" name="_method" value="DELETE">
+        <button type="button" onclick="confirmDelete(<?= $tx['id'] ?>)" class="btn btn-sm btn-outline-danger">
+            Hapus
+        </button>
+    </form>
+</td>
         </tr>
         <?php endforeach; ?>
     <?php endif; ?>
@@ -124,5 +151,27 @@
         </div>
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+function confirmDelete(transactionId) {
+    Swal.fire({
+        title: 'Anda Yakin?',
+        text: "Transaksi ini akan dihapus secara permanen dan saldo dompet akan dikembalikan. Aksi ini tidak dapat dibatalkan.",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#d33',
+        cancelButtonColor: '#6c757d',
+        confirmButtonText: 'Ya, Hapus Saja!',
+        cancelButtonText: 'Batal'
+    }).then((result) => {
+        // Jika pengguna menekan tombol "Ya, Hapus Saja!"
+        if (result.isConfirmed) {
+            // Cari form berdasarkan ID uniknya dan submit form tersebut
+            document.getElementById('delete-form-' + transactionId).submit();
+        }
+    })
+}
+</script>
 
-<?= $this->endSection() ?>
+
+<?= $this->endSection() ?> 

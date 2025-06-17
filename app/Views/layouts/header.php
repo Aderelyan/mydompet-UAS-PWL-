@@ -57,7 +57,6 @@
                     <li class="nav-item"><a class="nav-link" href="<?= site_url('dashboard') ?>">Dashboard</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= site_url('transaksi') ?>">Transaksi</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= site_url('diagram') ?>">Diagram</a></li>
-                    <li class="nav-item"><a class="nav-link" href="<?= site_url('hutang') ?>">Hutang</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?= site_url('wallets') ?>">Dompet</a></li>
                     
                     <?php if (session()->has('logged_in')): ?>

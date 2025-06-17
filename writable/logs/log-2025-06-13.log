@@ -659,3 +659,685 @@ DEBUG - 2025-06-13 07:29:53 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2025-06-13 07:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-06-13 07:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-06-13 07:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 09:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 10:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 11:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 11:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 11:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 11:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 11:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 11:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 11:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 11:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 11:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 11:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 11:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 11:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 11:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 11:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 11:56:59 --> mysqli_sql_exception: Can't update table 'transactions' in stored function/trigger because it is already used by statement which invoked this stored function/trigger in /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lyan/Documents/Sementara/PWL/system/Database/BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lyan/Documents/Sementara/PWL/system/Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 /home/lyan/Documents/Sementara/PWL/system/BaseModel.php(1157): CodeIgniter\Model->doDelete()
+#6 /home/lyan/Documents/Sementara/PWL/app/Controllers/Transaksi.php(93): CodeIgniter\BaseModel->delete()
+#7 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(933): App\Controllers\Transaksi->delete()
+#8 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#9 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lyan/Documents/Sementara/PWL/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 /home/lyan/Documents/Sementara/PWL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/lyan/Documents/Sementara/PWL/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#13 /home/lyan/Documents/Sementara/PWL/system/rewrite.php(44): require_once('...')
+#14 {main}
+CRITICAL - 2025-06-13 11:56:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Can't update table 'transactions' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+[Method: DELETE, Route: transaksi/delete/8]
+in SYSTEMPATH/Database/BaseConnection.php on line 692.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/BaseModel.php(1157): CodeIgniter\Model->doDelete()
+ 4 APPPATH/Controllers/Transaksi.php(93): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Transaksi->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+CRITICAL - 2025-06-13 11:56:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Can't update table 'transactions' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH/BaseModel.php(1157): CodeIgniter\Model->doDelete()
+ 6 APPPATH/Controllers/Transaksi.php(93): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Transaksi->delete()
+ 8 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+CRITICAL - 2025-06-13 11:56:59 --> [Caused by] mysqli_sql_exception: Can't update table 'transactions' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(1157): CodeIgniter\Model->doDelete()
+ 7 APPPATH/Controllers/Transaksi.php(93): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Transaksi->delete()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+DEBUG - 2025-06-13 12:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 12:20:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard_user.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Dashboard.php(92): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+DEBUG - 2025-06-13 12:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 12:22:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboarduser.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Dashboard.php(92): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+DEBUG - 2025-06-13 12:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 12:30:55 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_dompetku`.`transactions`, CONSTRAINT `transactions_ibfk_2` FOREIGN KEY (`wallet_id`) REFERENCES `wallets` (`id`)) in /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lyan/Documents/Sementara/PWL/system/Database/BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lyan/Documents/Sementara/PWL/system/Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 /home/lyan/Documents/Sementara/PWL/system/BaseModel.php(1157): CodeIgniter\Model->doDelete()
+#6 /home/lyan/Documents/Sementara/PWL/app/Controllers/Wallet.php(93): CodeIgniter\BaseModel->delete()
+#7 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(933): App\Controllers\Wallet->delete()
+#8 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#9 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lyan/Documents/Sementara/PWL/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 /home/lyan/Documents/Sementara/PWL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/lyan/Documents/Sementara/PWL/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#13 /home/lyan/Documents/Sementara/PWL/system/rewrite.php(44): require_once('...')
+#14 {main}
+DEBUG - 2025-06-13 12:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 12:31:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard_guest.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Dashboard.php(16): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+DEBUG - 2025-06-13 12:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-13 12:32:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard_guest.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Dashboard.php(16): view()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+DEBUG - 2025-06-13 12:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 12:38:27 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_dompetku`.`transactions`, CONSTRAINT `transactions_ibfk_3` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`)) in /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lyan/Documents/Sementara/PWL/system/Database/BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lyan/Documents/Sementara/PWL/system/Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 /home/lyan/Documents/Sementara/PWL/system/BaseModel.php(1157): CodeIgniter\Model->doDelete()
+#6 /home/lyan/Documents/Sementara/PWL/app/Controllers/Auth.php(137): CodeIgniter\BaseModel->delete()
+#7 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(933): App\Controllers\Auth->processDeleteAccount()
+#8 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#9 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lyan/Documents/Sementara/PWL/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 /home/lyan/Documents/Sementara/PWL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/lyan/Documents/Sementara/PWL/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#13 /home/lyan/Documents/Sementara/PWL/system/rewrite.php(44): require_once('...')
+#14 {main}
+CRITICAL - 2025-06-13 12:38:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`db_dompetku`.`transactions`, CONSTRAINT `transactions_ibfk_3` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+[Method: POST, Route: process-delete-account]
+in SYSTEMPATH/Database/BaseConnection.php on line 692.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/BaseModel.php(1157): CodeIgniter\Model->doDelete()
+ 4 APPPATH/Controllers/Auth.php(137): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->processDeleteAccount()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+CRITICAL - 2025-06-13 12:38:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`db_dompetku`.`transactions`, CONSTRAINT `transactions_ibfk_3` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH/BaseModel.php(1157): CodeIgniter\Model->doDelete()
+ 6 APPPATH/Controllers/Auth.php(137): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->processDeleteAccount()
+ 8 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+CRITICAL - 2025-06-13 12:38:27 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_dompetku`.`transactions`, CONSTRAINT `transactions_ibfk_3` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(1157): CodeIgniter\Model->doDelete()
+ 7 APPPATH/Controllers/Auth.php(137): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->processDeleteAccount()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+DEBUG - 2025-06-13 12:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 12:38:48 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_dompetku`.`transactions`, CONSTRAINT `transactions_ibfk_3` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`)) in /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lyan/Documents/Sementara/PWL/system/Database/BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lyan/Documents/Sementara/PWL/system/Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 /home/lyan/Documents/Sementara/PWL/system/BaseModel.php(1157): CodeIgniter\Model->doDelete()
+#6 /home/lyan/Documents/Sementara/PWL/app/Controllers/Auth.php(137): CodeIgniter\BaseModel->delete()
+#7 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(933): App\Controllers\Auth->processDeleteAccount()
+#8 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#9 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/lyan/Documents/Sementara/PWL/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 /home/lyan/Documents/Sementara/PWL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 /home/lyan/Documents/Sementara/PWL/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#13 /home/lyan/Documents/Sementara/PWL/system/rewrite.php(44): require_once('...')
+#14 {main}
+CRITICAL - 2025-06-13 12:38:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`db_dompetku`.`transactions`, CONSTRAINT `transactions_ibfk_3` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+[Method: POST, Route: process-delete-account]
+in SYSTEMPATH/Database/BaseConnection.php on line 692.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH/BaseModel.php(1157): CodeIgniter\Model->doDelete()
+ 4 APPPATH/Controllers/Auth.php(137): CodeIgniter\BaseModel->delete()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->processDeleteAccount()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+CRITICAL - 2025-06-13 12:38:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`db_dompetku`.`transactions`, CONSTRAINT `transactions_ibfk_3` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH/BaseModel.php(1157): CodeIgniter\Model->doDelete()
+ 6 APPPATH/Controllers/Auth.php(137): CodeIgniter\BaseModel->delete()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->processDeleteAccount()
+ 8 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+CRITICAL - 2025-06-13 12:38:48 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_dompetku`.`transactions`, CONSTRAINT `transactions_ibfk_3` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/BaseModel.php(1157): CodeIgniter\Model->doDelete()
+ 7 APPPATH/Controllers/Auth.php(137): CodeIgniter\BaseModel->delete()
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth->processDeleteAccount()
+ 9 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+DEBUG - 2025-06-13 12:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 12:40:40 --> mysqli_sql_exception: Gagal! Saldo dompet tidak mencukupi untuk transaksi ini. in /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lyan/Documents/Sementara/PWL/app/Models/TransactionModel.php(35): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lyan/Documents/Sementara/PWL/app/Controllers/Transaksi.php(74): App\Models\TransactionModel->addTransaction()
+#5 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(933): App\Controllers\Transaksi->create()
+#6 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lyan/Documents/Sementara/PWL/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/lyan/Documents/Sementara/PWL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/lyan/Documents/Sementara/PWL/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#11 /home/lyan/Documents/Sementara/PWL/system/rewrite.php(44): require_once('...')
+#12 {main}
+CRITICAL - 2025-06-13 12:40:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Gagal! Saldo dompet tidak mencukupi untuk transaksi ini.
+[Method: POST, Route: transaksi/create]
+in SYSTEMPATH/Database/BaseConnection.php on line 692.
+ 1 APPPATH/Models/TransactionModel.php(35): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Transaksi.php(74): App\Models\TransactionModel->addTransaction()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Transaksi->create()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+CRITICAL - 2025-06-13 12:40:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Gagal! Saldo dompet tidak mencukupi untuk transaksi ini.
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Models/TransactionModel.php(35): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Transaksi.php(74): App\Models\TransactionModel->addTransaction()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Transaksi->create()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+CRITICAL - 2025-06-13 12:40:40 --> [Caused by] mysqli_sql_exception: Gagal! Saldo dompet tidak mencukupi untuk transaksi ini.
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/TransactionModel.php(35): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Transaksi.php(74): App\Models\TransactionModel->addTransaction()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Transaksi->create()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+DEBUG - 2025-06-13 12:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 12:44:06 --> mysqli_sql_exception: Gagal! Saldo dompet tidak mencukupi untuk transaksi ini. in /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lyan/Documents/Sementara/PWL/app/Models/TransactionModel.php(35): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lyan/Documents/Sementara/PWL/app/Controllers/Transaksi.php(74): App\Models\TransactionModel->addTransaction()
+#5 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(933): App\Controllers\Transaksi->create()
+#6 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lyan/Documents/Sementara/PWL/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/lyan/Documents/Sementara/PWL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/lyan/Documents/Sementara/PWL/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#11 /home/lyan/Documents/Sementara/PWL/system/rewrite.php(44): require_once('...')
+#12 {main}
+CRITICAL - 2025-06-13 12:44:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Gagal! Saldo dompet tidak mencukupi untuk transaksi ini.
+[Method: POST, Route: transaksi/create]
+in SYSTEMPATH/Database/BaseConnection.php on line 692.
+ 1 APPPATH/Models/TransactionModel.php(35): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Transaksi.php(74): App\Models\TransactionModel->addTransaction()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Transaksi->create()
+ 4 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+CRITICAL - 2025-06-13 12:44:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Gagal! Saldo dompet tidak mencukupi untuk transaksi ini.
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH/Models/TransactionModel.php(35): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Controllers/Transaksi.php(74): App\Models\TransactionModel->addTransaction()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Transaksi->create()
+ 6 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+11 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+CRITICAL - 2025-06-13 12:44:06 --> [Caused by] mysqli_sql_exception: Gagal! Saldo dompet tidak mencukupi untuk transaksi ini.
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Models/TransactionModel.php(35): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Transaksi.php(74): App\Models\TransactionModel->addTransaction()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Transaksi->create()
+ 7 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/lyan/Documents/Sementara/PWL/public/index.php')
+DEBUG - 2025-06-13 12:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 12:44:46 --> mysqli_sql_exception: Error: Saldo dompet sumber tidak mencukupi. in /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lyan/Documents/Sementara/PWL/app/Controllers/Wallet.php(66): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(933): App\Controllers\Wallet->transfer()
+#5 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/lyan/Documents/Sementara/PWL/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 /home/lyan/Documents/Sementara/PWL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/lyan/Documents/Sementara/PWL/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#10 /home/lyan/Documents/Sementara/PWL/system/rewrite.php(44): require_once('...')
+#11 {main}
+DEBUG - 2025-06-13 12:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 12:48:22 --> mysqli_sql_exception: Gagal! Saldo dompet tidak mencukupi untuk transaksi ini. in /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lyan/Documents/Sementara/PWL/app/Models/TransactionModel.php(35): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lyan/Documents/Sementara/PWL/app/Controllers/Transaksi.php(91): App\Models\TransactionModel->addTransaction()
+#5 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(933): App\Controllers\Transaksi->create()
+#6 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lyan/Documents/Sementara/PWL/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/lyan/Documents/Sementara/PWL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/lyan/Documents/Sementara/PWL/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#11 /home/lyan/Documents/Sementara/PWL/system/rewrite.php(44): require_once('...')
+#12 {main}
+DEBUG - 2025-06-13 12:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 12:48:28 --> mysqli_sql_exception: Gagal! Saldo dompet tidak mencukupi untuk transaksi ini. in /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lyan/Documents/Sementara/PWL/app/Models/TransactionModel.php(35): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lyan/Documents/Sementara/PWL/app/Controllers/Transaksi.php(91): App\Models\TransactionModel->addTransaction()
+#5 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(933): App\Controllers\Transaksi->create()
+#6 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lyan/Documents/Sementara/PWL/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/lyan/Documents/Sementara/PWL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/lyan/Documents/Sementara/PWL/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#11 /home/lyan/Documents/Sementara/PWL/system/rewrite.php(44): require_once('...')
+#12 {main}
+DEBUG - 2025-06-13 12:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 12:50:05 --> mysqli_sql_exception: Gagal! Saldo dompet tidak mencukupi untuk transaksi ini. in /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lyan/Documents/Sementara/PWL/app/Models/TransactionModel.php(35): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lyan/Documents/Sementara/PWL/app/Controllers/Transaksi.php(91): App\Models\TransactionModel->addTransaction()
+#5 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(933): App\Controllers\Transaksi->create()
+#6 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lyan/Documents/Sementara/PWL/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/lyan/Documents/Sementara/PWL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/lyan/Documents/Sementara/PWL/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#11 /home/lyan/Documents/Sementara/PWL/system/rewrite.php(44): require_once('...')
+#12 {main}
+DEBUG - 2025-06-13 12:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 12:50:23 --> mysqli_sql_exception: Gagal! Saldo dompet tidak mencukupi untuk transaksi ini. in /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lyan/Documents/Sementara/PWL/app/Models/TransactionModel.php(35): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lyan/Documents/Sementara/PWL/app/Controllers/Transaksi.php(91): App\Models\TransactionModel->addTransaction()
+#5 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(933): App\Controllers\Transaksi->create()
+#6 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lyan/Documents/Sementara/PWL/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/lyan/Documents/Sementara/PWL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/lyan/Documents/Sementara/PWL/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#11 /home/lyan/Documents/Sementara/PWL/system/rewrite.php(44): require_once('...')
+#12 {main}
+DEBUG - 2025-06-13 12:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 12:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 13:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 13:00:08 --> mysqli_sql_exception: Gagal! Saldo dompet tidak mencukupi untuk transaksi ini. in /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lyan/Documents/Sementara/PWL/app/Models/TransactionModel.php(35): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lyan/Documents/Sementara/PWL/app/Controllers/Transaksi.php(91): App\Models\TransactionModel->addTransaction()
+#5 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(933): App\Controllers\Transaksi->create()
+#6 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lyan/Documents/Sementara/PWL/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/lyan/Documents/Sementara/PWL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/lyan/Documents/Sementara/PWL/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#11 /home/lyan/Documents/Sementara/PWL/system/rewrite.php(44): require_once('...')
+#12 {main}
+DEBUG - 2025-06-13 13:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 13:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 13:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 13:01:04 --> mysqli_sql_exception: Gagal! Saldo dompet tidak mencukupi untuk transaksi ini. in /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lyan/Documents/Sementara/PWL/app/Models/TransactionModel.php(35): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lyan/Documents/Sementara/PWL/app/Controllers/Transaksi.php(91): App\Models\TransactionModel->addTransaction()
+#5 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(933): App\Controllers\Transaksi->create()
+#6 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lyan/Documents/Sementara/PWL/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/lyan/Documents/Sementara/PWL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/lyan/Documents/Sementara/PWL/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#11 /home/lyan/Documents/Sementara/PWL/system/rewrite.php(44): require_once('...')
+#12 {main}
+DEBUG - 2025-06-13 13:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 13:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 13:04:06 --> mysqli_sql_exception: Gagal! Saldo dompet tidak mencukupi untuk transaksi ini. in /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lyan/Documents/Sementara/PWL/app/Models/TransactionModel.php(35): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lyan/Documents/Sementara/PWL/app/Controllers/Transaksi.php(91): App\Models\TransactionModel->addTransaction()
+#5 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(933): App\Controllers\Transaksi->create()
+#6 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#7 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lyan/Documents/Sementara/PWL/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /home/lyan/Documents/Sementara/PWL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 /home/lyan/Documents/Sementara/PWL/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#11 /home/lyan/Documents/Sementara/PWL/system/rewrite.php(44): require_once('...')
+#12 {main}
+DEBUG - 2025-06-13 13:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 13:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 13:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-13 13:04:32 --> mysqli_sql_exception: Error: Saldo dompet sumber tidak mencukupi. in /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /home/lyan/Documents/Sementara/PWL/system/Database/MySQLi/Connection.php(327): mysqli->query()
+#1 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/lyan/Documents/Sementara/PWL/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/lyan/Documents/Sementara/PWL/app/Controllers/Wallet.php(67): CodeIgniter\Database\BaseConnection->query()
+#4 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(933): App\Controllers\Wallet->transfer()
+#5 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+#6 /home/lyan/Documents/Sementara/PWL/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/lyan/Documents/Sementara/PWL/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 /home/lyan/Documents/Sementara/PWL/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#9 /home/lyan/Documents/Sementara/PWL/public/index.php(56): CodeIgniter\Boot::bootWeb()
+#10 /home/lyan/Documents/Sementara/PWL/system/rewrite.php(44): require_once('...')
+#11 {main}
+DEBUG - 2025-06-13 13:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 13:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 13:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 13:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 13:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 13:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 13:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 13:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 13:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 13:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-13 13:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
