@@ -1,216 +1,139 @@
 <?= $this->include('layouts/header') ?>
-<style>
-        .body {
-            background-color: #ffffff;
-        }
-        .filter-container {
-            
-            border-radius: 10px;
-        }
-        .chart-container {
-            width: 100%;
-            max-width: 400px;
-            height: 400px;
-            background-color: rgb(255, 255, 255);
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-            color: white;
-        }
-        .chart-container-line {
-            width: 100%; /* Penuh kanan-kiri */
-            height: 400px;
-            background-color: rgb(255, 255, 255);
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-            color: white;
-        }
 
-        .chart-container-line canvas {
-            display: block;
-            width: 100% !important;
-            max-width: none;
-        }
+<div class="container my-4">
+    <h2 class="text-center mb-4">Diagram Keuangan</h2>
 
-        h1 { color: black; background: #ffffff; padding: 15px; border-radius: 10px; display: inline-block; }
-    </style>
-
-<div class="body" >
-    <h2 class="text-center">Diagram Keuangan</h2><br>
-
-    <!-- Form Filter -->
-    <form method="get" action="<?= base_url('catatan') ?>">
-        <div class="row mb-3 justify-content-center">
-            <div class="col-md-4">
-                <label for="tanggal_awal" class="form-label">Dari Tanggal:</label>
-                <input type="date" name="tanggal_awal" id="tanggal_awal" class="form-control" required>
-            </div>
-            <div class="col-md-4">
-                <label for="tanggal_akhir" class="form-label">Sampai Tanggal:</label>
-                <input type="date" name="tanggal_akhir" id="tanggal_akhir" class="form-control" required>
-            </div>
-            <div class="col-md-2 d-flex align-items-end">
-                <button type="submit" class="btn btn-primary w-100">Filter</button>
+    <div class="card shadow-sm mb-5">
+        <div class="card-body">
+            <form method="get" action="<?= site_url('diagram') ?>">
+                <div class="row align-items-end">
+                    <div class="col-md-5">
+                        <label for="tanggal_awal" class="form-label">Dari Tanggal:</label>
+                        <input type="date" name="tanggal_awal" id="tanggal_awal" class="form-control" value="<?= esc($filter['tanggal_awal']) ?>">
+                    </div>
+                    <div class="col-md-5">
+                        <label for="tanggal_akhir" class="form-label">Sampai Tanggal:</label>
+                        <input type="date" name="tanggal_akhir" id="tanggal_akhir" class="form-control" value="<?= esc($filter['tanggal_akhir']) ?>">
+                    </div>
+                    <div class="col-md-2">
+                        <button type="submit" class="btn btn-primary w-100">Filter</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-lg-12 mb-5">
+            <div class="card shadow-sm">
+                <div class="card-header"><h5>Pengeluaran Berdasarkan Kategori</h5></div>
+                <div class="card-body" style="height: 400px; position: relative;">
+                    <canvas id="chartPie"></canvas>
+                </div>
             </div>
         </div>
-    </form>
 
-    <br><br>
-
-    <div class="row justify-content-center">
-    <!-- Grafik Batang -->
-    <div class="col-md-6 d-flex justify-content-center">
-        <div class="chart-container">
-            <canvas id="chartBar"></canvas>
+        <div class="col-lg-12">
+            <div class="card shadow-sm">
+                 <div class="card-header"><h5>Tren Transaksi</h5></div>
+                <div class="card-body" style="height: 400px;">
+                    <canvas id="chartLine"></canvas>
+                </div>
+            </div>
         </div>
     </div>
+</div>
 
-    <!-- Grafik Pie -->
-    <div class="col-md-6 d-flex justify-content-center">
-        <div class="chart-container">
-            <canvas id="chartPie"></canvas>
-        </div>
-    </div>
-    </div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
 
-    <br><br>
+<script>
+    // [PERBAIKAN] Mendaftarkan plugin datalabels secara global
+    Chart.register(ChartDataLabels);
 
-    <!-- Grafik Line (Lebar Penuh) -->
-    <div class="row justify-content-center">
-    <div class="col-11 mx-auto">
-        <div class="chart-container-line">
-            <canvas id="chartLine"></canvas>
-        </div>
-    </div>
-    </div><br>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
-
-    <script>
-         const chartData = JSON.parse('<?= $chartData ?? '{}' ?>');
-
-const ctxBar = document.getElementById('chartBar').getContext('2d');
-const ctxPie = document.getElementById('chartPie').getContext('2d');
-
-// Gunakan data dinamis
-let pemasukan = chartData.values ? chartData.values[0] : 0;
-let pengeluaran = chartData.values ? chartData.values[1] : 0;
-let total = pemasukan + pengeluaran;
-
-        const bulan = ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun'];
-        let dataPemasukan = [5000000, 6000000, 7000000, 6500000, 8000000, 9000000];
-        let dataPengeluaran = [2000000, 2500000, 3000000, 2800000, 3500000, 4000000];
-
-        const colors = {
-            pemasukan: '#4CAF50',
-            pengeluaran: '#FF5252',
-            linePemasukan: '#00E676',
-            linePengeluaran: '#FF4081'
-        };
-
-        let barChart = new Chart(ctxBar, {
-            type: 'bar',
-            data: {
-                labels: ['Pemasukan', 'Pengeluaran'],
-                datasets: [{
-                    label: 'Total Keuangan',
-                    data: [pemasukan, pengeluaran],
-                    backgroundColor: [colors.pemasukan, colors.pengeluaran],
-                    borderRadius: 10
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                aspectRatio: 1,
-                plugins: { legend: { display: false } },
-                scales: {
-                    y: { beginAtZero: true, ticks: { color: '#000000' } },
-                    x: { ticks: { color: '#000000' } }
-                }
-            }
-        });
-
-        let pieChart = new Chart(ctxPie, {
+    const chartData = JSON.parse('<?= $chartDataJson ?? '{}' ?>');
+    const ctxPie = document.getElementById('chartPie').getContext('2d');
+    
+    // Cek apakah ada data untuk pie chart
+    if (chartData.pie && chartData.pie.data.length > 0) {
+        new Chart(ctxPie, {
             type: 'pie',
             data: {
-                labels: ['Pemasukan', 'Pengeluaran'],
+                labels: chartData.pie.labels,
                 datasets: [{
-                    data: [pemasukan, pengeluaran],
-                    backgroundColor: [colors.pemasukan, colors.pengeluaran]
+                    data: chartData.pie.data,
+                    backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF', '#FF9F40', '#E7E9ED', '#8BC34A'],
                 }]
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
                 plugins: {
-                    legend: { labels: { color: '#000000' } },
+                    legend: { position: 'top' },
+                    // [PERBAIKAN] Konfigurasi datalabels yang lebih kuat
                     datalabels: {
-                        formatter: (value) => ((value / total) * 100).toFixed(1) + "%",
-                        color: '#ffffff',
+                        display: true, // Pastikan label ditampilkan
+                        formatter: (value, ctx) => {
+    // [PERBAIKAN] Gunakan Number() untuk memastikan semua data adalah angka saat dijumlahkan
+    const sum = ctx.chart.data.datasets[0].data.reduce((a, b) => a + Number(b), 0);
+    
+    // Mencegah pembagian dengan nol
+    if (sum === 0) {
+        return '0%';
+    }
+
+    // [PERBAIKAN] Pastikan 'value' yang sedang diproses juga diperlakukan sebagai Angka
+    const percentage = (Number(value) * 100 / sum).toFixed(1) + "%";
+    return percentage;
+},
+                        color: '#fff',
                         font: { weight: 'bold', size: 14 }
                     }
                 }
-            },
-            plugins: [ChartDataLabels]
-        });
-
-        let lineChart = new Chart(ctxLine, {
-            type: 'line',
-            data: {
-                labels: bulan,
-                datasets: [
-                    {
-                        label: 'Pemasukan',
-                        data: dataPemasukan,
-                        borderColor: colors.linePemasukan,
-                        backgroundColor: 'rgba(4, 255, 134, 0.2)',
-                        fill: true,
-                        tension: 0.3
-                    },
-                    {
-                        label: 'Pengeluaran',
-                        data: dataPengeluaran,
-                        borderColor: colors.linePengeluaran,
-                        backgroundColor: 'rgba(255, 11, 92, 0.42)',
-                        fill: true,
-                        tension: 0.3
-                    }
-                ]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                scales: {
-                    y: { beginAtZero: true, ticks: { color: '#000000' } },
-                    x: { ticks: { color: '#000000' } }
-                },
-                plugins: {
-                    legend: {
-                        labels: {
-                            color: '#000000' // Mengubah warna teks label legend menjadi putih
-                        }
-                    }
-                }
             }
-
         });
+    } else {
+        // Jika tidak ada data, tampilkan pesan
+        let canvas = ctxPie.canvas;
+        ctxPie.font = "16px Arial";
+        ctxPie.fillStyle = "#6c757d";
+        ctxPie.textAlign = "center";
+        ctxPie.fillText("Tidak ada data pengeluaran pada rentang tanggal ini.", canvas.width / 2, canvas.height / 2);
+    }
 
-        function updateChart() {
-            let selectedMonth = document.getElementById('filterBulan').value;
-            let selectedYear = document.getElementById('filterTahun').value;
-            let selectedDate = document.getElementById('filterTanggal').value;
-
-            alert(`Filter diterapkan:\nBulan: ${selectedMonth}\nTahun: ${selectedYear}\nTanggal: ${selectedDate}`);
-
-            // Update data di sini (misalnya, mengambil dari database via AJAX)
+    // ===================================
+    // LINE CHART - TREN HARIAN (Kode ini tetap sama dan seharusnya sudah berfungsi)
+    // ===================================
+    const ctxLine = document.getElementById('chartLine').getContext('2d');
+    new Chart(ctxLine, {
+        type: 'line',
+        data: {
+            labels: chartData.line.labels,
+            datasets: [
+                {
+                    label: 'Pemasukan',
+                    data: chartData.line.incomeData,
+                    borderColor: '#4CAF50',
+                    backgroundColor: 'rgba(76, 175, 80, 0.2)',
+                    fill: true,
+                    tension: 0.2
+                },
+                {
+                    label: 'Pengeluaran',
+                    data: chartData.line.expenseData,
+                    borderColor: '#FF5252',
+                    backgroundColor: 'rgba(255, 82, 82, 0.2)',
+                    fill: true,
+                    tension: 0.2
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: { y: { beginAtZero: true } }
         }
-    </script>
+    });
+</script>
 
-    
-</div class="body">
-    
 <?= $this->include('layouts/footer') ?>
